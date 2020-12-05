@@ -8,6 +8,8 @@ Our data can be collected from the Centers for Disease Control and Prevention's 
 
 Before we can proceed with our analysis, we need to make sure we are working with the right pieces to visualize our data later.  In particular, we should be wary about including any areas that are not designated as one of the fifty states.  For example, any major cities inside the US that are already assigned their own rows should be included within their corresponding states for consistency purposes.  In addition, while our data already accounts for every date from January 22 to November 30, it would be prudent for us to further distinguish between the dates by referencing back to their respective months.  In doing so, we can more easily present our findings in terms of monthly trends.
 
+Click [here](https://raw.githubusercontent.com/jvalle58/Valle-DATS-6103-Project-3/main/covid-nov-30.csv) to access the raw CSV data file applied for this project.
+
 ### Process of Analysis
 
 Once we have our data ready for analysis, we will start off with an overview of COVID-19's effect throughout the whole US. We can dissect this further by comparing figures accounting for the whole year with those recorded by month. In this manner, we can visualize any spikes in cases and deaths over time. 
