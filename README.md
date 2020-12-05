@@ -59,10 +59,15 @@ Click [here](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/DAT
 ---
 
 `c = test1.iloc[:,3].plot(color='tab:red', fontsize=13)`
+
 `c.set_title('Fatality Rate of New COVID-19 Cases in the US over Time', fontsize=17)`
+
 `c.set_xlabel('Date', fontsize=15)`
+
 `c.set_ylabel('Fatality Rate (%)', fontsize=15)`
+
 `plt.legend(loc='best', fontsize=13)`
+
 `plt.show()`
 
 ### Findings and Conclusions
