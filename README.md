@@ -34,9 +34,11 @@ Click [here](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/DAT
 
 `plt.legend(loc='best', fontsize=13)`
 
-`plt.show() #Based on our dataframe, the reason we apply new, not total, cases here is to observe any spikes in cases over time.`
+`plt.show()`
 
 ![Figure 1](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/Figure%201.png?raw=true)
+
+-----
 
 `b = test1.iloc[:,1].plot(color='tab:orange', fontsize=13)`
 
@@ -50,9 +52,18 @@ Click [here](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/DAT
 
 `plt.legend(loc='best', fontsize=13)`
 
-`plt.show() #Similarly, applying new rather than total deaths to our plot allows us to report on spikes in deaths over time.`
+`plt.show()`
 
 ![Figure 2](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/Figure%202.png?raw=true)
+
+---
+
+`c = test1.iloc[:,3].plot(color='tab:red', fontsize=13)`
+`c.set_title('Fatality Rate of New COVID-19 Cases in the US over Time', fontsize=17)`
+`c.set_xlabel('Date', fontsize=15)`
+`c.set_ylabel('Fatality Rate (%)', fontsize=15)`
+`plt.legend(loc='best', fontsize=13)`
+`plt.show()`
 
 ### Findings and Conclusions
 
