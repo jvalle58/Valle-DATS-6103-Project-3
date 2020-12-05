@@ -93,29 +93,29 @@ Click [here](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/DAT
 
 `def PiePlot1(variable):`
 
-    `df = monthly[variable]`
+    df = monthly[variable]
     
-    `top_months = df.sort_values(ascending=False)`
+    top_months = df.sort_values(ascending=False)
     
-    `top_months = top_months.reset_index()`
+    top_months = top_months.reset_index()
     
-    `top_months.index = top_months.index + 1`
+    top_months.index = top_months.index + 1
     
-    `other_months = top_months[6:].sum()[1]`
+    other_months = top_months[6:].sum()[1]
     
-    `top_months = top_months[:6]`
+    top_months = top_months[:6]
     
-    `top_months.loc[7] = ('All Other Months', other_months)` 
+    top_months.loc[7] = ('All Other Months', other_months) 
     
-    `#Any months not in the top 6 for a given variable are collected together in a separate slice.`
+    #Any months not in the top 6 for a given variable are collected together in a separate slice.
     
-    `MonthPlot = top_months[variable].plot.pie(subplots=True,`
+    MonthPlot = top_months[variable].plot.pie(subplots=True,
     
-                                              `autopct='%0.2f%%',fontsize=12,figsize=(10,10),legend=False,labels=top_months['Month'],shadow=False,`
+                                              autopct='%0.2f%%',fontsize=12,figsize=(10,10),legend=False,labels=top_months['Month'],shadow=False,
                                               
-                                              `explode=(0.15,0,0,0,0,0,0), #The largest slice explodes from the rest.`
+                                              explode=(0.15,0,0,0,0,0,0), #The largest slice explodes from the rest.
                                               
-                                              `startangle=90)`
+                                              startangle=90)
 
 ### Comparing Between the States (Over the Whole Year)
 
