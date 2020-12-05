@@ -38,7 +38,7 @@ Click [here](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/DAT
 
 ![Figure 1](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/Figure%201.png?raw=true)
 
------
+---
 
 `b = test1.iloc[:,1].plot(color='tab:orange', fontsize=13)`
 
@@ -71,6 +71,8 @@ Click [here](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/DAT
 `plt.show()`
 
 ![Figure 3](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/Figure%203.png?raw=true)
+
+---
 
 ### Findings and Conclusions
 
