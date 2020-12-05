@@ -18,7 +18,7 @@ To get a more in-depth look on COVID-19 however, we can go beyond our original i
 
 Click [here](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/DATS%206103%20-%20Individual%20Project%203%20-%20Joseph%20Valle.ipynb) for a look at this project's Jupyter Notebook on GitHub.
 
-### Analyzing COVID-19's Spread Throughout the US (Over the Whole Year)
+### _Analyzing COVID-19's Spread Throughout the US (Over the Whole Year)_
 
 `a = test1.iloc[:,0].plot(color='tab:blue', fontsize=13)`
 
@@ -73,6 +73,17 @@ Click [here](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/DAT
 `plt.show()`
 
 ![Figure 3](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/Figure%203.png?raw=true)
+
+---
+### _Analyzing COVID-19's Spread Throughout the US (Over Each Month)_
+
+---
+
+### _Comparing Between the States (Over the Whole Year)_
+
+---
+
+### _Predictions: Comparing Between the States (Over Each Month)_
 
 ---
 
