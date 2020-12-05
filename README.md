@@ -116,6 +116,16 @@ Click [here](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/DAT
                                               explode=(0.15,0,0,0,0,0,0), #The largest slice explodes from the rest.
                                               
                                               startangle=90)
+                                              
+`PiePlot1('New Cases')`
+
+`plt.show()`
+
+`print()`
+
+`PiePlot1('New Deaths')`
+
+`plt.show()` 
 
 ### Comparing Between the States (Over the Whole Year)
 
