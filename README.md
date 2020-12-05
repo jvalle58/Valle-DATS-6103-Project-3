@@ -18,7 +18,7 @@ To get a more in-depth look on COVID-19 however, we can go beyond our original i
 
 Click [here](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/DATS%206103%20-%20Individual%20Project%203%20-%20Joseph%20Valle.ipynb) for a look at this project's Jupyter Notebook on GitHub.
 
-### _Analyzing COVID-19's Spread Throughout the US (Over the Whole Year)_
+### Analyzing COVID-19's Spread Throughout the US (Over the Whole Year)
 
 `a = test1.iloc[:,0].plot(color='tab:blue', fontsize=13)`
 
@@ -75,15 +75,25 @@ Click [here](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/DAT
 ![Figure 3](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/Figure%203.png?raw=true)
 
 ---
-### _Analyzing COVID-19's Spread Throughout the US (Over Each Month)_
+### Analyzing COVID-19's Spread Throughout the US (Over Each Month)
+
+`d = monthly.iloc[:,2].plot(kind='bar', color='tab:purple', fontsize=13)`
+
+`d.set_title('Fatality Rate of New COVID-19 Cases in the US by Month', fontsize=17)`
+
+`d.set_xlabel('Month', fontsize=15)`
+
+`d.set_ylabel('Fatality Rate (%)', fontsize=15)`
+
+`plt.show()`
 
 ---
 
-### _Comparing Between the States (Over the Whole Year)_
+### Comparing Between the States (Over the Whole Year)
 
 ---
 
-### _Predictions: Comparing Between the States (Over Each Month)_
+### Predictions: Comparing Between the States (Over Each Month)
 
 ---
 
