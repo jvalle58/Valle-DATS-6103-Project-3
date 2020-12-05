@@ -16,7 +16,17 @@ Once we have our data ready for analysis, we will start off with an overview of 
 
 To get a more in-depth look on COVID-19 however, we can go beyond our original inquiry by examining the virus's spread between the individual states. Using this approach, we will isolate which states were hit the hardest over time and deduce which ones may have responded better in dealing with the virus. This latter note can be addressed by observing the virus's fatality rate. For the course of this project, the fatality rate will be defined as the proportion of new deaths over new cases. Later, we will inspect monthly trends between the states, and thereby identify any spikes over the year. Furthermore, we will apply these trends to predict how the states will fare against COVID-19 at the turn of the new year.
 
-Click [here](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/DATS%206103%20-%20Individual%20Project%203%20-%20Joseph%20Valle.ipynb) for a look at this project's Jupyter Notebook.
+Click [here](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/DATS%206103%20-%20Individual%20Project%203%20-%20Joseph%20Valle.ipynb) for a look at this project's Jupyter Notebook on GitHub.
+
+`a = test1.iloc[:,0].plot(color='tab:blue', fontsize=13)
+a.set_title('New COVID-19 Cases in the US over Time', fontsize=17)
+a.set_xlabel('Date', fontsize=15)
+a.set_ylabel('Number of Cases', fontsize=15)
+fmt1 = '{x:,.0f}'
+t1 = mtick.StrMethodFormatter(fmt1)
+a.yaxis.set_major_formatter(t1)
+plt.legend(loc='best', fontsize=13)
+plt.show()`
 
 ### Findings and Conclusions
 
@@ -59,17 +69,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
+\
 
 **Bold** and _Italic_ and `Code` text
 
@@ -77,11 +77,3 @@ Syntax highlighted code block
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jvalle58/Valle-DATS-6103-Project-3/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
