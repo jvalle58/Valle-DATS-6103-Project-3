@@ -19,13 +19,21 @@ To get a more in-depth look on COVID-19 however, we can go beyond our original i
 Click [here](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/DATS%206103%20-%20Individual%20Project%203%20-%20Joseph%20Valle.ipynb) for a look at this project's Jupyter Notebook on GitHub.
 
 `a = test1.iloc[:,0].plot(color='tab:blue', fontsize=13)`
+
 `a.set_title('New COVID-19 Cases in the US over Time', fontsize=17)`
+
 `a.set_xlabel('Date', fontsize=15)`
+
 `a.set_ylabel('Number of Cases', fontsize=15)`
-`fmt1 = '{x:,.0f}'`
+
+`fmt1 = '{x:,.0f}' #We want to express figures in the thousands with commas.`
+
 `t1 = mtick.StrMethodFormatter(fmt1)`
+
 `a.yaxis.set_major_formatter(t1)`
+
 `plt.legend(loc='best', fontsize=13)`
+
 `plt.show()`
 
 ### Findings and Conclusions
