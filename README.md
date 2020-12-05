@@ -87,7 +87,35 @@ Click [here](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/DAT
 
 `plt.show()`
 
+![Figure 4](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/Figure%204.png?raw=true)
+
 ---
+
+`def PiePlot1(variable):`
+
+    `df = monthly[variable]`
+    
+    `top_months = df.sort_values(ascending=False)`
+    
+    `top_months = top_months.reset_index()`
+    
+    `top_months.index = top_months.index + 1`
+    
+    `other_months = top_months[6:].sum()[1]`
+    
+    `top_months = top_months[:6]`
+    
+    `top_months.loc[7] = ('All Other Months', other_months)` 
+    
+    `#Any months not in the top 6 for a given variable are collected together in a separate slice.`
+    
+    `MonthPlot = top_months[variable].plot.pie(subplots=True,`
+    
+                                              `autopct='%0.2f%%',fontsize=12,figsize=(10,10),legend=False,labels=top_months['Month'],shadow=False,`
+                                              
+                                              `explode=(0.15,0,0,0,0,0,0), #The largest slice explodes from the rest.`
+                                              
+                                              `startangle=90)`
 
 ### Comparing Between the States (Over the Whole Year)
 
@@ -126,23 +154,3 @@ United States COVID-19 Cases and Deaths by State over Time. (2020, June 11). Ret
 Hunter, J., Dale, D., Firing, E., & Droettboom, M. (Eds.). (n.d.). Matplotlib.patches. Retrieved November 23, 2020, from https://matplotlib.org/3.2.1/api/patches_api.html
 
 Hunter, J., Dale, D., Firing, E., & Droettboom, M. (Eds.). (n.d.). Matplotlib.markers. Retrieved November 23, 2020, from https://matplotlib.org/3.2.1/api/markers_api.html
-
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/jvalle58/Valle-DATS-6103-Project-3/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-\
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
