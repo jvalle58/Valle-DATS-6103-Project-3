@@ -36,6 +36,8 @@ Click [here](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/DAT
 
 `plt.show()`
 
+
+
 ### Findings and Conclusions
 
 COVID-19 continues to disturb observers about its potency throughout the US today. In fact, at more than 30%, November reported the highest number of new cases. This unfortunately hints that it is becoming easier for the virus to spread from person to person, even in asymptomatic cases. In addition, April reported the greatest number of new deaths along with the highest fatality rate of all months reported thus far. As an extension to this observation, while February reported the third-highest fatality rate, it should be noted that only 19 cases and 1 death were recorded at that time, both of which were significantly lower than all subsequent months.
