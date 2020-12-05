@@ -119,13 +119,17 @@ Click [here](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/DAT
                                               
 `PiePlot1('New Cases')`
 
-`plt.show()`
+`plt.show()` 
 
-`print()`
+![Figure 5](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/Figure%205.png?raw=true)
+
+---
 
 `PiePlot1('New Deaths')`
 
 `plt.show()` 
+
+---
 
 ### Comparing Between the States (Over the Whole Year)
 
