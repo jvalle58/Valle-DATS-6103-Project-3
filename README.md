@@ -18,17 +18,23 @@ To get a more in-depth look on COVID-19 however, we can go beyond our original i
 
 Click [here](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/DATS%206103%20-%20Individual%20Project%203%20-%20Joseph%20Valle.ipynb) for a look at this project's Jupyter Notebook on GitHub.
 
-` a = test1.iloc[:,0].plot(color='tab:blue', fontsize=13)
-  a.set_title('New COVID-19 Cases in the US over Time', fontsize=17)
-  a.set_xlabel('Date', fontsize=15)
-  a.set_ylabel('Number of Cases', fontsize=15)
-  fmt1 = '{x:,.0f}' #We want to express figures in the thousands with commas.
-  t1 = mtick.StrMethodFormatter(fmt1)
-  a.yaxis.set_major_formatter(t1)
-  plt.legend(loc='best', fontsize=13)
-  plt.show()
+`a = test1.iloc[:,0].plot(color='tab:blue', fontsize=13)`
 
-  #Based on our dataframe, the reason we apply new, not total, cases here is to observe any spikes in cases over time.`
+`a.set_title('New COVID-19 Cases in the US over Time', fontsize=17)`
+
+`a.set_xlabel('Date', fontsize=15)`
+
+`a.set_ylabel('Number of Cases', fontsize=15)`
+
+`fmt1 = '{x:,.0f}' #We want to express figures in the thousands with commas.`
+
+`t1 = mtick.StrMethodFormatter(fmt1)`
+
+`a.yaxis.set_major_formatter(t1)`
+
+`plt.legend(loc='best', fontsize=13)`
+
+`plt.show() #Based on our dataframe, the reason we apply new, not total, cases here is to observe any spikes in cases over time.`
 
 ![Figure 1](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/Figure%201.png?raw=true)
 
@@ -38,9 +44,7 @@ Click [here](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/DAT
 `b.set_ylabel('Number of Deaths', fontsize=15)`
 `b.yaxis.set_major_formatter(t1)`
 `plt.legend(loc='best', fontsize=13)`
-`plt.show()`
-
-`#Similarly, applying new rather than total deaths to our plot allows us to report on spikes in deaths over time.`
+`plt.show() #Similarly, applying new rather than total deaths to our plot allows us to report on spikes in deaths over time.`
 
 ![Figure 2](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/Figure%202.png?raw=true)
 
