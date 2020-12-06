@@ -70,7 +70,7 @@ Click [here](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/DAT
 
 ![Figure 3](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/Figure%203.png?raw=true)
 
-***
+---
 
 ### Analyzing COVID-19's Spread Throughout the US (Over Each Month)
 
@@ -122,7 +122,7 @@ Click [here](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/DAT
 
 ![Figure 6](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/Figure%206.png?raw=true)
 
----
+**---**
 
 ### Comparing Between the States (Over the Whole Year)
 
@@ -199,7 +199,7 @@ Click [here](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/DAT
 
 ![Figure 9](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/Figure%209.png?raw=true)
 
-***
+---
 
 `covid_map('Total Deaths')`
 
