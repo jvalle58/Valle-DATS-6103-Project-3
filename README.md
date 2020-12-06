@@ -210,7 +210,7 @@ Click [here](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/DAT
 
 `covid_map('Total Deaths')`
 
-d
+![Figure 10](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/Figure%2010.png?raw=true)
 
 ---
 
