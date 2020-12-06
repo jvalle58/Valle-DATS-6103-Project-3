@@ -94,27 +94,23 @@ Click [here](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/DAT
 `def PiePlot1(variable):`
 
     df = monthly[variable]
-    
     top_months = df.sort_values(ascending=False)
-    
     top_months = top_months.reset_index()
-    
     top_months.index = top_months.index + 1
-    
     other_months = top_months[6:].sum()[1]
-    
     top_months = top_months[:6]
-    
     top_months.loc[7] = ('All Other Months', other_months) 
     
     #Any months not in the top 6 for a given variable are collected together in a separate slice.
     
     MonthPlot = top_months[variable].plot.pie(subplots=True,
-    
-                                              autopct='%0.2f%%',fontsize=12,figsize=(10,10),legend=False,labels=top_months['Month'],shadow=False,
-                                              
+                                              autopct='%0.2f%%',
+                                              fontsize=12,
+                                              figsize=(10,10),
+                                              legend=False,
+                                              labels=top_months['Month'],
+                                              shadow=False,
                                               explode=(0.15,0,0,0,0,0,0), #The largest slice explodes from the rest.
-                                              
                                               startangle=90)
                                               
 `PiePlot1('New Cases')`
@@ -148,7 +144,11 @@ Click [here](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/DAT
     #Any states not in the top 9 for a given variable are collected together in a separate slice.
     
     StatesPlot = top_states[variable].plot.pie(subplots=True,   
-                                               autopct='%0.2f%%', fontsize=12, figsize=(10,10), legend=False, labels=top_states['State'], shadow=False,
+                                               autopct='%0.2f%%', 
+                                               fontsize=12, figsize=(10,10), 
+                                               legend=False, 
+                                               labels=top_states['State'], 
+                                               shadow=False,
                                                explode=(0.15,0,0,0,0,0,0,0,0,0), #The largest slice explodes again.
                                                startangle=90)
 
