@@ -122,7 +122,7 @@ Click [here](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/DAT
 
 ![Figure 6](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/Figure%206.png?raw=true)
 
-**---**
+---
 
 ### Comparing Between the States (Over the Whole Year)
 
