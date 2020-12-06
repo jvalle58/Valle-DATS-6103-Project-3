@@ -40,8 +40,6 @@ Click [here](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/DAT
 
 ![Figure 1](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/Figure%201.png?raw=true)
 
----
-
 `b = test1.iloc[:,1].plot(color='tab:orange', fontsize=13)`
 
 `b.set_title('New COVID-19 Deaths in the US over Time', fontsize=17)`
@@ -58,8 +56,6 @@ Click [here](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/DAT
 
 ![Figure 2](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/Figure%202.png?raw=true)
 
----
-
 `c = test1.iloc[:,3].plot(color='tab:red', fontsize=13)`
 
 `c.set_title('Fatality Rate of New COVID-19 Cases in the US over Time', fontsize=17)`
@@ -75,6 +71,7 @@ Click [here](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/DAT
 ![Figure 3](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/Figure%203.png?raw=true)
 
 ---
+
 ### Analyzing COVID-19's Spread Throughout the US (Over Each Month)
 
 `d = monthly.iloc[:,2].plot(kind='bar', color='tab:purple', fontsize=13)`
@@ -258,15 +255,15 @@ Click [here](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/DAT
 
 `StatesGraph('VA','MD','New Cases')`
 
-d
+!
 
 `StatesGraph('VA','MD','New Deaths')`
 
-d
+!
 
 `StatesGraph('VA','MD','Fatality Rate')`
 
-d
+!
 
 ---
 
