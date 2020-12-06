@@ -137,28 +137,19 @@ Click [here](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/DAT
 
 `def PiePlot2(variable):`
 
-    df = test2[variable]
-    
+    df = test2[variable]    
     top_states = df.sort_values(ascending=False)
-    
     top_states = top_states.reset_index()
-    
     top_states.index = top_states.index + 1
-    
     other_states = top_states[9:].sum()[1]
-    
     top_states = top_states[:9]
-    
     top_states.loc[10] = ('All Other States', other_states) 
-    
+ 
     #Any states not in the top 9 for a given variable are collected together in a separate slice.
     
-    StatesPlot = top_states[variable].plot.pie(subplots=True,
-    
+    StatesPlot = top_states[variable].plot.pie(subplots=True,   
                                                autopct='%0.2f%%', fontsize=12, figsize=(10,10), legend=False, labels=top_states['State'], shadow=False,
-                                               
                                                explode=(0.15,0,0,0,0,0,0,0,0,0), #The largest slice explodes again.
-                                               
                                                startangle=90)
 
 `PiePlot2('Total Cases')`
