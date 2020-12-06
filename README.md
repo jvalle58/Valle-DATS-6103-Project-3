@@ -165,7 +165,7 @@ Click [here](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/DAT
 
 `plt.show()`
 
-d
+![Figure 7](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/Figure%207.png?raw=true)
 
 ---
 
@@ -173,7 +173,9 @@ d
 
 `plt.show()`
 
-d
+![Figure 8](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/Figure%208.png?raw=true)
+
+---
 
 ### Predictions: Comparing Between the States (Over Each Month)
 
