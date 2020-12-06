@@ -38,14 +38,22 @@ Click [here](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/DAT
 
 `plt.show()`
 
+`#Based on our dataframe, the reason we apply new, not total, cases here is to observe any spikes in cases over time.`
+
 ![Figure 1](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/Figure%201.png?raw=true)
 
 `b = test1.iloc[:,1].plot(color='tab:orange', fontsize=13)`
+
 `b.set_title('New COVID-19 Deaths in the US over Time', fontsize=17)`
+
 `b.set_xlabel('Date', fontsize=15)`
+
 `b.set_ylabel('Number of Deaths', fontsize=15)`
+
 `b.yaxis.set_major_formatter(t1)`
+
 `plt.legend(loc='best', fontsize=13)`
+
 `plt.show()`
 
 `#Similarly, applying new rather than total deaths to our plot allows us to report on spikes in deaths over time.`
