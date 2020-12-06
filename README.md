@@ -16,7 +16,7 @@ Once we have our data ready for analysis, we will start off with an overview of 
 
 To get a more in-depth look on COVID-19 however, we can go beyond our original inquiry by examining the virus's spread between the individual states. Using this approach, we will isolate which states were hit the hardest over time and deduce which ones may have responded better in dealing with the virus. This latter note can be addressed by observing the virus's fatality rate. For the course of this project, the fatality rate will be defined as the proportion of new deaths over new cases. Later, we will inspect monthly trends between the states, and thereby identify any spikes over the year. Furthermore, we will apply these trends to predict how the states will fare against COVID-19 at the turn of the new year. 
 
-Click [here](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/DATS%206103%20-%20Individual%20Project%203%20-%20Joseph%20Valle.ipynb) for a look at this project's Jupyter Notebook on GitHub.
+Click [here](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/DATS%206103%20-%20Individual%20Project%203%20-%20Joseph%20Valle.ipynb) for a look at this project's Jupyter Notebook on GitHub. Some code excerpts are provided below.
 
 ### Analyzing COVID-19's Spread Throughout the US (Over the Whole Year)
 
