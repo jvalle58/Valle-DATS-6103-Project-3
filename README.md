@@ -252,15 +252,15 @@ Click [here](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/DAT
 
 `StatesGraph('NY','FL','New Cases')`
 
-d
+![Figure 12](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/Figure%2012.png?raw=true)
 
 `StatesGraph('NY','FL','New Deaths')`
 
-d
+![Figure 13](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/Figure%2013.png?raw=true)
 
 `StatesGraph('NY','FL','Fatality Rate')`
 
-d
+![Figure 14](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/Figure%2014.png?raw=true)
 
 ---
 
