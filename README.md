@@ -222,6 +222,34 @@ Click [here](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/DAT
 
 ### Predictions: Comparing Between the States (Over Each Month)
 
+`def StatesGraph(state1, state2, variable): #This function will allow us to jointly plot any two states of our choice.`
+
+    df1 = test3.loc[state1, variable] 
+    df2 = test3.loc[state2, variable]
+    e = df1.plot(color='tab:blue', marker='o', fontsize=13)
+    f = df2.plot(color='tab:red', marker='o', fontsize=13)
+    
+    #The markers help identify each of the monthly data points for both states.
+    
+    plt.title(str(variable)+' from COVID-19 in '+str(state1)+' and '+str(state2)+' by Month', fontsize=17)
+    plt.xlabel('Month', fontsize=15)
+    plt.ylabel(str(variable), fontsize=15)
+    if variable == 'Fatality Rate':
+        plt.ylabel(str(variable)+str(' (%)')) 
+        
+    #The Y-axis for our Fatality Rate data must be represented in terms of percentages.
+    
+    if variable != 'Fatality Rate':
+        e.yaxis.set_major_formatter(t1) 
+        f.yaxis.set_major_formatter(t1)
+    
+    #For our New Cases and New Deaths data, we want to write any values in the thousands with commas.
+        
+    state1_patch = mpatches.Patch(color='tab:blue', label=str(state1))
+    state2_patch = mpatches.Patch(color='tab:red', label=str(state2))
+    plt.legend(title='State', handles=(state1_patch, state2_patch), fontsize=13, loc=(1.02,0))
+    plt.show()
+
 ---
 
 ## Findings and Conclusions
