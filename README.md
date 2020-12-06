@@ -216,7 +216,7 @@ Click [here](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/DAT
 
 `covid_map('Fatality Rate')`
 
-d
+![Figure 11](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/Figure%2011.png?raw=true)
 
 ---
 
