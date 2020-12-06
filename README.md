@@ -255,15 +255,15 @@ Click [here](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/DAT
 
 `StatesGraph('VA','MD','New Cases')`
 
-!
+![Figure 15](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/Figure%2015.png?raw=true)
 
 `StatesGraph('VA','MD','New Deaths')`
 
-!
+![Figure 16](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/Figure%2016.png?raw=true)
 
 `StatesGraph('VA','MD','Fatality Rate')`
 
-!
+![Figure 17](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/Figure%2017.png?raw=true)
 
 ---
 
