@@ -177,6 +177,40 @@ Click [here](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/DAT
 
 ---
 
+`def covid_map(variable):`
+
+    fig = go.Figure(data=go.Choropleth(
+        locations=test2.index,
+        z = test2[variable],
+        text = test2.index, #The text will help us identify which state from our map we want to study.
+        locationmode = 'USA-states',
+        autocolorscale = False, #Varying shades of blue and red will indicate COVID-19's impact throughout the states.
+        marker_line_color = 'rgb(255,255,255)',
+        marker_line_width = 2,
+        colorbar_tickprefix = '',
+        colorbar_title = str(variable)+' with COVID-19'
+    ))
+    
+    fig.update_layout(
+        title_text = str(variable)+' with COVID-19 Between the States'+'<br>Hover For Value',
+        geo = dict(
+            showframe = False,
+            showcoastlines = True,
+            showlakes = True,
+            lakecolor = 'rgb(95,145,235)',
+            projection_type = 'albers usa'),
+        annotations = [dict(
+            x = 0.7,
+            y = 0.05,
+            xref = 'paper',
+            yref = 'paper',
+            text = 'Source: <a href="https://data.cdc.gov/">CDC</a>',
+            showarrow = False
+        )]
+    )
+    
+    fig.show() #The resulting map will allow us to hover over any state we want to study.
+
 ### Predictions: Comparing Between the States (Over Each Month)
 
 ---
