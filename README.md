@@ -250,6 +250,32 @@ Click [here](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/DAT
     plt.legend(title='State', handles=(state1_patch, state2_patch), fontsize=13, loc=(1.02,0))
     plt.show()
 
+`StatesGraph('NY','FL','New Cases')`
+
+d
+
+`StatesGraph('NY','FL','New Deaths')`
+
+d
+
+`StatesGraph('NY','FL','Fatality Rate')`
+
+d
+
+---
+
+`StatesGraph('VA','MD','New Cases')`
+
+d
+
+`StatesGraph('VA','MD','New Deaths')`
+
+d
+
+`StatesGraph('VA','MD','Fatality Rate')`
+
+d
+
 ---
 
 ## Findings and Conclusions
