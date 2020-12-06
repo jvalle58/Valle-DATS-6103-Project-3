@@ -201,6 +201,24 @@ Click [here](https://github.com/jvalle58/Valle-DATS-6103-Project-3/blob/main/DAT
     )
     
     fig.show() #The resulting map will allow us to hover over any state we want to study.
+    
+`covid_map('Total Cases')`
+
+d
+
+---
+
+`covid_map('Total Deaths')`
+
+d
+
+---
+
+`covid_map('Fatality Rate')`
+
+d
+
+---
 
 ### Predictions: Comparing Between the States (Over Each Month)
 
